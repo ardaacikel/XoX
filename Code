@@ -17,8 +17,6 @@ private:
 
 };
 
-#include <iostream>
-
 using namespace std;
 
 Oyun::Oyun() {
@@ -155,13 +153,6 @@ int Oyun::genelKontrol() {
 	else
 		return 2012;
 }
-
-
-#include <cstdlib>
-#include <iostream>
-
-using namespace std;
-
 
 int main()
 {

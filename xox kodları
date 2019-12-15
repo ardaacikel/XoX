@@ -165,7 +165,6 @@ int main()
 		oyna.hamleYap(&hYap);
 		oyna.kazanmaKontrol();
 	}
-	//oyna.deneme();
 	system("PAUSE");
 	return EXIT_SUCCESS;
 }

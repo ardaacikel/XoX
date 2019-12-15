@@ -62,7 +62,6 @@ cout	<< "Programda numarali alanlar bos oldugunu gostermektedir.\n"
 void Oyun::hamleYap(int *hamle) {
 	tHamle++;
 	sira = tHamle % 2;
-	// Geçersiz hamleler önleniyor.
 	if (((*hamle < 0) || (*hamle > 9))) {
 		cout << "Gecersiz hamle yaptiniz.\n"
 			<< "Yeni hamle yapiniz.\n";
@@ -71,7 +70,6 @@ void Oyun::hamleYap(int *hamle) {
 			cin >> *hamle;
 		}
 	}
-	// Hamlenin yeri belirleniyor.
 	if (*hamle <= 3) {
 		if (tahta[0][*hamle - 1] == 0) {
 			cout << "Hamleniz gerceklestirildi." << endl;

@@ -24,7 +24,6 @@ Oyun::Oyun() {
 	for (sayac = 0; sayac < 3; sayac++) {
 		for (sayac2 = 0; sayac2 < 3; sayac2++)
 			tahta[sayac][sayac2] = dene[sayac][sayac2];
-		// İki boyutlu dizideki tüm alanlar 0 verilerek hamlelere izin veriliyor.
 	}
 	tHamle = 0;
 }
